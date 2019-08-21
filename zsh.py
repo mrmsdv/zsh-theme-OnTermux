@@ -44,6 +44,7 @@ os.system("git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zs
 os.system("cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc")
 os.system('''sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/' $HOME/.zshrc''')
 print(m+" Setting Complete !"+m1)
+print(gt+"  Jika Ingin Mengganti Tema masukan Comand di bawah :"+m1+" \n  python ganti.py") 
 time.sleep(2)
 os.system('termux-reload-settings')
 time.sleep(2)
