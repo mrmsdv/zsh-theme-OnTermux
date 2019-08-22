@@ -4,4 +4,7 @@
   GUNAKAN DENGAN BIJAK YA.. 
 
 # HOW TO RUN 
+  $ pkg install git -y
+  $ pkg install curl
+  $ pkg install python2 -y
   $ python zsh.py
